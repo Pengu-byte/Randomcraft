@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .navbar {
+    padding: 20px;
+    margin: 20px;
+    margin-top: 10px;
+    
+}
+.navbar .nav-logo .logo-text {
+    color: maroon;
+}
+
+.navbar .nav-menu {
+    display: flex;
+    gap: 10px;
+}
+
+
+.navbar .nav-menu .nav-link {
+  color: red;
+  padding: 10px 18px;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+
+
+.navbar .nav-menu .nav-link:hover {
+     background: maroon;
+     color: white;
+}
+
+
+.container {
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.card {
+    background-color: sandybrown;
+    border-radius: 8px;
+    padding: 20px;
+    display: inline-flex;
+    height: 500px;
+    text-align: left;
+    
+}
+
+.card .name {
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+    text-transform: bold;
+}
+
+.card .name:hover {
+    text-decoration: underline;
+}
+
+.card .text {
+    align-content: center;
+    text-align: left;
+    margin-right: 20px
+}
+
+
+.card img {
+  width: 18%;
+  border-radius: 10px;
+  margin-right: 0;
+
+}
+
+.container .description {
+   margin: 30px;
+}
